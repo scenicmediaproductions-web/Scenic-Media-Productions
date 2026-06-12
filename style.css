@@ -1032,24 +1032,7 @@ button:hover{
 .card:hover video{
     transform:scale(1.1);
 }
-const reveals = document.querySelectorAll(".reveal");
 
-window.addEventListener("scroll",()=>{
-
-reveals.forEach((element)=>{
-
-let windowHeight=window.innerHeight;
-let top=element.getBoundingClientRect().top;
-
-if(top<windowHeight-100){
-
-element.classList.add("active");
-
-}
-
-});
-
-});
 .reveal{
     opacity:0;
     transform:translateY(80px);
