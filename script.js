@@ -5,7 +5,7 @@
 
 // Initialize EmailJS
 emailjs.init({
-    publicKey: "wrim2AtDcFINXHrxV",
+    publicKey: "67I5JMK1DgFkehf-7",
 });
 
 // Wait for page to load
